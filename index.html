@@ -8,15 +8,17 @@
     <title>Fb Login page</title>
   </head>
   <body>
-    <div class="flex justify-around">
-      <div class="left h-3/4 border-solid border-red-600">
-        <h2 class="text-blue-700 justify-center text-5xl font-bold">facebook</h2>
-        <p>Facebook helps you connect and share with the people in your life.</p>
+    <div class="container flex justify-around items-center min-h-screen min-w-full">
+      <div class="w-1/2 p-8">
+        <div class="justify-center">
+          <h2 class="text-blue-700 justify-center text-5xl font-bold">facebook</h2>
+          <p class="text-3xl">Facebook helps you connect and share with the people in your life.</p>
+        </div>
       </div>
-      <div class="right">
-        <div class="container">
-          <form action="">
-            <input type="text" placeholder="Email address or phone number">
+      <div class="right max-h-full">
+        <div class="border border-solid border-red-600 flex flex-col h-1/2">
+          <form action="" class="flex flex-col">
+            <input type="text" placeholder="Email address or phone number" class="">
             <input type="password" placeholder="Password">
             <input type="button" value="Log in">
           </form>
